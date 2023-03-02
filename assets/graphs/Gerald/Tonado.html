@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <!-- Import the d3.js library and the CSS stylesheet -->
+    <script src="https://d3js.org/d3.v7.min.js" charset="utf-8"></script>
+    <link href="../../css/style.css" rel="stylesheet">
+    <title>Revenue vs Profit</title>
+</head>
+<body>
+    <!-- Create a paragraph element with the ID "example" -->
+    <p id="Tonado"></p>
+
+    <!-- Define a function named tornadoChart -->
+    <script>
+    function tornadoChart() {
+    const margin = { top: 20, right: 30, bottom: 40, left: 100 },
+    width = 1050 - margin.left - margin.right,
+    height = 700 - margin.top - margin.bottom;
+
+    // Define scales for the x and y axes
+    const x = d3.scaleLinear().range([0, width]);
+    const y = d3.scaleBand().range([0, height]).padding(0.1);
+
+    // Define axes for the chart
+    const xAxis = d3.axisBottom(x).ticks(7);
+    const yAxis = d3.axisLeft(y).tickSize(0);
+
+    // Create a new SVG element with the defined width and height and add it to the HTML body
+  const svg = d3
+    .select("body")
+    .append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+    .append("g")
+    .attr("transform", `translate(${margin.left}, ${margin.top})`);
+
+    // Define a function named chart that creates a bar chart with the provided data
+  function chart(selection) {
+    selection.each(function (data) {
+      // Set the domain for the x and y scales
+      x.domain(d3.extent(data, (d) => d.interactions)).nice();
+      y.domain(data.map((d) => d.product));
+
+      // Calculate the minimum interaction value
+      const minInteractions = Math.min(
+        ...data.map((o) => o.interactions)
+      );
+      // Set the tick padding of the y axis
+      yAxis.tickPadding(Math.abs(x(minInteractions) - x(0)) + 1);
+
+      // Select all "rect" elements with class "bar" and bind the data to them
+      const bar = svg.selectAll(".bar").data(data);
+
+      // Add new "rect" elements for each data point and set their attributes
+      bar.enter().append("rect")
+        .attr("class", (d) => `bar bar--${d.interactions < 0 ? "negative" : "positive"}`)
+        .attr("x", (d) => x(Math.min(0, d.interactions)))
+        .attr("y", (d) => y(d.product))
+        .attr("width", (d) => Math.abs(x(d.interactions) - x(0)))
+        .attr("height", y.bandwidth());
+
+      // Add new "text" elements for each data point and set their attributes
+      bar.enter().append('text')
+        // Set text alignment to center.
+        .attr("text-anchor", "middle")
+        // Position the text in the middle of the bar.
+        .attr("x", (d,i) => x(Math.min(0, d.interactions)) + (Math.abs(x(d.interactions) - x(0)) / 2))
+        .attr("y", (d,i) => y(d.product) + (y.bandwidth() / 2))
+        // Set vertical alignment to center.
+        .attr("dy", ".35em")
+        .text((d) => d.interactions);
+
+        // Append the x-axis to the chart.
+      svg.append("g")
+        .attr("class", "x axis")
+        .attr("transform", `translate(0, ${height})`)
+        .call(xAxis);
+
+        // Append the y-axis to the chart.
+      svg.append("g")
+        .attr("class", "y axis")
+            // Translate the y-axis to the zero-interactions point.
+        .attr("transform", `translate(${x(0)}, 0)`)
+        .call(yAxis);
+    });
+  }
+
+  // Return the chart function.
+  return chart;
+}
+
+// Define the data.
+const data = {"Tonado1":[{"product":"Canon imageCLASS","status":"profit","interactions":25000},
+{"product":"Canon imageCLASS","status":"revenue","interactions":-62000},
+{"product":"Fellowes PB500 Electric Punch Plastic Comb Binding Machine with Manual with Manual Bind","status":"male","interactions":8000},
+{"product":"Fellowes PB500 Electric Punch Plastic Comb Binding Machine with Manual with Manual Bind","status":"revenue","interactions":-27000},
+{"product":"Hewlett Packard LaserJet 3310 Copier","status":"profit","interactions":7000},
+{"product":"Hewlett Packard LaserJet 3310 Copier","status":"revenue","interactions":-19000},
+{"product":"HP Designjet T520 Inkjet Large Format Printer - 24 Color","status":"profit","interactions":4000},
+{"product":"HP Designjet T520 Inkjet Large Format Printer - 24 Color","status":"revenue","interactions":-18000},
+{"product":"Ibico EPK-21 Electric Binding System","status":"profit","interactions":3000},
+{"product":"Ibico EPK-21 Electric Binding System","status":"revenue","interactions":-16000},
+{"product":"3D System Cube Printer, 2nd Generation, Magenta","status":"profit","interactions":4000},
+{"product":"3D System Cube Printer, 2nd Generation, Magenta","status":"revenue","interactions":-14000},
+{"product":"Logitech G19 Programmable Gaming Keyboard","status":"profit","interactions":4000},
+{"product":"Logitech G19 Programmable Gaming Keyboard","status":"revenue","interactions":-14000},
+{"product":"Canon PC1060 Personal Laser Copier","status":"profit","interactions":5000},
+{"product":"Canon PC1060 Personal Laser Copier","status":"revenue","interactions":-12000},
+{"product":"Ativa V4110MDD Micro-Cut Shredder","status":"profit","interactions":4000},
+{"product":"Ativa V4110MDD Micro-Cut Shredder","status":"revenue","interactions":-8000},
+{"product":"Zebra ZM400 Thermal Label Printer","status":"profit","interactions":3000},
+{"product":"Zebra ZM400 Thermal Label Printer","status":"revenue","interactions":-7000}]};
+
+// Loop through the data and draw the charts.
+for (const i in data) {
+  const chart = tornadoChart()
+  d3.select("#Tonado")
+      .datum(data[i])
+      .call(chart);
+}
+
+    </script>
+</body>
+</html>
