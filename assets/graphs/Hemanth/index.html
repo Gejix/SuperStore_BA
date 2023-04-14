@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      div.tooltip {
+        position: absolute;
+        text-align: left;
+        width: auto;
+        padding: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        box-shadow: 0 0 5px #999999;
+        border-radius: 5px;
+        background: white;
+        pointer-events: none;
+        border: 1px solid #999999;
+        color: black;
+      }
+    </style>
+    <script src="//d3js.org/d3.v7.min.js"></script>
+  </head>
+  <body style="background: #000066">
+    <div style="text-align: center">
+      <h3 style="color: #f5b645">Profit Share by Segments</h3>
+      <label style="color: white" for="menu">Select: </label>
+      <select id="menu"></select>
+      <br />
+      <div id="donutchart"></div>
+    </div>
+  </body>
+
+  <script src="index.js"></script>
+</html>
