@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      div.tooltip {
+        position: absolute;
+        text-align: left;
+        width: auto;
+        padding: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        box-shadow: 0 0 5px #999999;
+        border-radius: 5px;
+        background: white;
+        pointer-events: none;
+        border: 1px solid #999999;
+        color: black;
+      }
+
+      .axisColor line {
+        stroke: transparent;
+      }
+
+      .axisColor path {
+        stroke: transparent;
+      }
+      .axisColor text {
+        font-size: 9px;
+      }
+      .xAxis text {
+        font-size: 9px;
+        font-weight: normal;
+      }
+      text{
+        font-weight: bold;
+      }
+      .button {
+        cursor: pointer;
+      }
+      .catColor { 
+      /* class of rects for yAxis*/
+        opacity: 0.3;
+      }
+    </style>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="Tornado.js"></script>
+  </head>
+  <body>
+    <div style="text-align: center">
+
+      <h2 style = "color: blue">Cost vs Profit</h2>
+
+      <label style="color: black" for="options1">Select: </label> 
+      <select id="options1"></select>
+
+      <select id="options2">
+        <option value="Product Name">Products</option>
+        <option value="Category">Categories</option>
+        <option value="Sub-Category">Sub-Categories</option>
+        <option value="Segment">Segments</option>
+        <option value="City">Cities</option>
+        <option value="State">States</option>
+      </select>
+
+      <br />
+
+      <div id="tornadoChart"></div>
+
+    </div>
+  </body>
+  <script>
+  </script>
+</html>
