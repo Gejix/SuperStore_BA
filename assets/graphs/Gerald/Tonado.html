@@ -8,7 +8,7 @@
      <!-- Import the d3.js library and the CSS stylesheet -->
     <script src="https://d3js.org/d3.v7.min.js" charset="utf-8"></script>
     <link href="../../css/style.css" rel="stylesheet">
-    <title>Revenue vs Profit</title>
+    <title>Sales vs Profit</title>
 </head>
 <body>
     <!-- Create a paragraph element with the ID "example" -->
@@ -123,11 +123,11 @@
             .attr('font-size', titleSize)
             .attr('text-anchor', 'middle');
 
-        //adding Loss label to chart with svg text
+        //adding Sales label to chart with svg text
         svg.append('text')
             .attr('y', margin.top)
             .attr('x', x(minInteractions/4))
-            .text('Loss')
+            .text('Sales')
             .attr('font-family', 'sans-serif')
             .attr('font-size', 18)
             .attr('text-anchor', 'middle')
