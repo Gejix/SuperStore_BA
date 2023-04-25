@@ -1669,16 +1669,36 @@ section {
 # Gerald
 --------------------------------------------------------------*/
 .bar--positive {
-  fill: #FDFF00;
+  /*fill: #FDFF00;*/
+  fill: rgb(0, 204, 255)
 }
 
 .bar--negative {
-  fill: #38E54D;
+  /*--fill: #38E54D;*/
+  fill: blue
 }
 
-text {
-  font: 10px sans-serif;
+.yaxis {
+  font: 15px sans-serif;
+  font-style:oblique;
+  font-weight: bold;
+  /*text-anchor: start;*/
 }
+
+text.label{
+  font: 12px sans-serif;
+  fill: white;
+  font-weight: bold;
+  
+}
+
+text.label--positive{
+  fill:black;
+}
+
+/*.xaxis{
+font-size:12px;
+}*/
 
 .axis path,
 .axis line {
@@ -1686,6 +1706,7 @@ text {
   stroke: #000;
   shape-rendering: crispEdges;
 }
+
 
 /*--------------------------------------------------------------
 # Footer
