@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <!-- CSS styles for div.tooltip and other classes -->
     <style>
       div.tooltip {
         position: absolute;
@@ -42,14 +43,16 @@
         opacity: 0.3;
       }
     </style>
+    <!-- D3.js library for creating visualizations -->
     <script src="https://d3js.org/d3.v7.min.js"></script>
+    <!-- Custom JavaScript code for generating the Tornado chart -->
     <script src="Tornado.js"></script>
   </head>
   <body>
     <div style="text-align: center">
-
+      <!-- Header for the chart -->
       <h2 style = "color: blue">Cost vs Profit</h2>
-
+      <!-- Two dropdown menus for selecting options -->
       <label style="color: black" for="options1">Select: </label> 
       <select id="options1"></select>
 
@@ -63,7 +66,7 @@
       </select>
 
       <br />
-
+      <!-- Div element for displaying the Tornado chart -->
       <div id="tornadoChart"></div>
 
     </div>
