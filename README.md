@@ -30,5 +30,45 @@ The large dataset obtained from individuals on Kaggle may have some bias due to 
     We documented the process via a word file.
     The minutes of meeting was updated by Yemi.
 
+### Project Playground
+    GitHub was our version control system.
+    Repository: https://github.com/Gejix/SuperStore_BA
+
+### Project Prototype Development
+    A Dashboard was created to reflect the intended charts to be created and this was delegated to Arinze.
+
+### Project Web site Development
+    A website was created to host the team's Final project. 
+    Gerald was task with this responsibility.
+    Website link: https://gejix.github.io/SuperStore_BA
+
+### Project Progress
+    The Team’s progress and backlog was captured using Microsoft Projects and Excel. 
+    Hemanth was Tasked with the sprints update.
+
+### Project Code refactoring
+    The final look of the project had to be cohesive and in sync. 
+    Peace was responsible for refactoring and unifying the charts to achieve this goal.
+
+## Conclusion
+    By using D3.js to recreate the dashboard, we were able to make further improvements to our charts, resulting in a more visually appealing and informative website. Our project provides Super Stores with valuable insights into their business, which can lead to better decision-making and improved profitability.
 
 
+## Reference
+    Website link: https://gejix.github.io/SuperStore_BA
+    Kaggle link: https://www.kaggle.com/datasets/vivek468/superstore-dataset-final
+    Visual storytelling with D3: an introduction to data visualization in JavaScript; King, Ritchie S
+
+
+    Other references:
+    https://d3js.org/
+    https://jsfiddle.net/rishulmatta/5y4ke6a7/
+    https://d3-graph-gallery.com/treemap.html
+    https://observablehq.com/@d3/zoomable-sunburst
+    https://d3-graph-gallery.com/area.html
+    https://observablehq.com/@d3/bubble-chart
+    https://www.youtube.com/@currankelleher
+
+<div class="copyright">
+  &copy; Copyright <strong><span>Blue Oceania</span></strong>. All Rights Reserved
+</div>
