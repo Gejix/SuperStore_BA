@@ -51,7 +51,10 @@ The large dataset obtained from individuals on Kaggle may have some bias due to 
     Peace was responsible for refactoring and unifying the charts to achieve this goal.
 
 ## Conclusion
-    By using D3.js to recreate the dashboard, we were able to make further improvements to our charts, resulting in a more visually appealing and informative website. Our project provides Super Stores with valuable insights into their business, which can lead to better decision-making and improved profitability.
+    By using D3.js to recreate the dashboard, we were able to make further improvements to our charts, 
+    resulting in a more visually appealing and informative website. Our project provides Super Stores 
+    with valuable insights into their business, which can lead to better decision-making and improved 
+    profitability.
 
 
 ## Reference
