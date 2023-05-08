@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--<script src="treemap.js"></script>-->
+    <style>
+      div{
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .legend{
+        font-weight: bold;
+      }
+      /*
+      text{
+       font-family: Arial, Helvetica, sans-serif;
+      }
+      h2{
+      font-family: Arial, Helvetica, sans-serif;
+      }*/
+      div.tooltip {
+        position: absolute;
+        text-align: left;
+        width: auto;
+        padding: 10px;
+        /*font-family: Arial, Helvetica, sans-serif;*/
+        font-size: 12px;
+        box-shadow: 0 0 5px #999999;
+        border-radius: 5px;
+        background: white;
+        pointer-events: none;
+        border: 1px solid #999999;
+        color: black;
+      }
+      #treemap .hover {
+        font-size: 0;
+      }
+      .furniture{
+        fill: brown;
+      }
+      .button {
+        cursor: pointer;
+      }
+      #treemap .yAxis path {
+        /* stroke: transparent; */
+        stroke-width: 2px;
+      }
+      #treemap .yAxis{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+      }
+    </style>
+    
+    <script src="//d3js.org/d3.v7.min.js"></script>
+    <script src="treemap.js"></script>
+  </head>
+  <body>
+    <!-- style="background: grey" -->
+    <!-- <body style="background: #000066"> -->
+    <div class = 'container' style="text-align: center">
+      <!-- <h3 style="color: #f5b645">Top 10 Cities by Revenue</h3> -->
+      <div>
+        <h2 style="color:blue">Top Locations by Sales Revenue</h2>
+      </div>
+      <!-- #f5b645 -->
+      <label for="menu1" style="color: black">Select: </label>
+      <select id="menu1"></select>
+      <select id="menu2"></select>
+      <label for="menu3" style="color: black"> in </label>
+      <select id="menu3"></select>
+      <label style="color: black"> Category</label>
+      <br />
+      <div id="treemap" style = 'background-color: white'></div>
+    </div>
+
+    <div class = 'container' style="text-align: center; border: 10px solid transparent">
+      <br>
+      <span style="color:blue"><strong><u>Insights</u></strong></span>
+      <div class = 'container' style="text-align: center; padding-left: 20%;padding-right: 20%; border: 10px solid transparent">
+      <ul style="text-align: left; ">
+        <li>
+          New York City generated the highest revenue of $256 over a four-year period, followed by Los Angeles, Seattle, San Francisco, and Philadelphia.
+        </li>
+        <li>
+          In 2016, Los Angeles overtook New York as the highest revenue-generating city.
+        </li>
+        <li>
+          At the city level, the Canon image class 2200 advanced copier in the Technology category contributed the most to revenue.
+        </li>
+        <li>
+          The High-speed automatic electric letter opener in the Office Supplies category made the most revenue overall at the state level.
+        </li>
+      </ul>
+      </div>
+
+    </div>
+
+  </body>
+  <script>
+    
+  </script>
+</html>

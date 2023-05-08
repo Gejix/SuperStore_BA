@@ -19,6 +19,13 @@ function tornadoChart(data) {
     let maxCost, minCost, maxProfit, minProfit, selectcondition, xScale, filteredbycategory, category, topOrBottom;      //xScale is here because of transition out
 
     
+    data.forEach(function(d){
+        // Remove � character from name
+        d['Product Name'] = (d['Product Name']).replace(/�/g, ' ')
+    })
+    
+
+    
     function filterCondition(condition, category = undefined) {
 
         selectcondition = condition  
@@ -200,7 +207,7 @@ function tornadoChart(data) {
             marginleft = 130
         }
 
-        let margin = { top: 20, right: 150, bottom: 40, left: marginleft }, //size of chart + margin or sides    //top was once 50//right was 30
+        let margin = { top: 20, right: 155, bottom: 40, left: marginleft }, //size of chart + margin or sides    //top was once 50//right was 30
         width = 1200 - margin.left - margin.right,
         height = 500 - margin.top - margin.bottom;
 
@@ -552,7 +559,8 @@ function tornadoChart(data) {
                 .append('circle')
                 .attr("cy", function(d, i) {return i * 40})
                 .attr("r", 5)
-                .style("fill", function(d, i){return catColorScheme(d)});
+                .style("fill", function(d, i){return catColorScheme(d)})
+                .attr('class', function(d){ return `legend ${d.replace(' ', '_')}` });
 
 
             const catLegendText  = catLegendGroup
@@ -565,13 +573,17 @@ function tornadoChart(data) {
                 .attr("dy", ".35em") // 1em is the font size so 0.35em is 35% of the font size. This attribute offsets the y position by this amount.
                 .style("fill", function(d, i){return catColorScheme(d)})
                 .text(function(d){return d})
-                .attr('class', 'button')
+                .attr('class', function(d){ return `legend ${d.replace(' ', '_')}` })
+                .classed('button', true)
+                //.attr('class', 'button')
                 .on('click', function(event) {
                     if(category != d3.select(this).text()){
                         category = d3.select(this).text()
                         filteredbycategory = true;
                         filtereddata = filterCondition(selectcondition, category)
                         drawbar(filtereddata)
+                        d3.selectAll('.legend').style('opacity', 0.3)
+                        d3.selectAll(`.legend.${category.replace(' ', '_')}`).style('opacity', 1)
                     }
                     
                 })
