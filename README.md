@@ -41,7 +41,7 @@ The large dataset obtained from individuals on Kaggle may have some bias due to 
     A website was created to host the team's Final project. 
     Gerald was task with this responsibility.
     Website link: https://gejix.github.io/SuperStore_BA
-<img src="assets/img/charts Image/Webpage.PNG" alt="App interface" width="700" height="500">
+<img src="assets/img/charts Image/Webpage.PNG" alt="App interface" width="1000" height="600">
 
 ### Project Progress
     The Team’s progress and backlog was captured using Microsoft Projects and Excel. 
