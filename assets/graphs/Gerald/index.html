@@ -44,16 +44,34 @@
       /* class of rects for yAxis*/
         opacity: 0.3;
       }
+      .fa{
+        color: blue;
+        font-size: 20px;
+        padding-left: 10px;
+      }
+
     </style>
     <script src="https://d3js.org/d3.v7.min.js"></script>
-    <script src="Tornado.js"></script>
+    
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Favicons -->
+    <link href="assets/img/faviconG.ico" rel="icon">
+
+    
+  <script src="Tornado.js"></script>
+
   </head>
   <body>
     <div class = 'container' style="text-align: center">
 
       <h2 style = "color: blue">Cost vs Profit</h2>
 
-      <label style="color: black" for="options1">Select: </label> 
+      <a href="../../graphs/Peace/index.html"><i class="fa fa-arrow-left"></i></a>
+      <a href="../../../index.html"><i class="fa fa-home"></i></a>
+
+      <label style="color: black" for="options1" padding-left="20px">Select: </label> 
       <select id="options1"></select>
 
       <select id="options2">
@@ -91,6 +109,5 @@
     </div>
 
   </body>
-  <script>
-  </script>
+
 </html>

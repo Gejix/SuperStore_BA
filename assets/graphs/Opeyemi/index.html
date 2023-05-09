@@ -4,6 +4,11 @@
         <title>Triangle Plot</title>
         <script src="https://d3js.org/d3.v7.min.js" charset = 'utf-8'></script>
         <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+            <!-- font awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <!-- Favicons -->
+        <link href="assets/img/faviconG.ico" rel="icon">
     </head>
     <body>
         <style>
@@ -50,17 +55,21 @@
               }
               .tooltiptext {
                 float: none;
-               }          
+               }
+              .fa{
+                color: blue;
+                font-size: 20px;
+                padding-left: 10px;
+               }
+               
         </style>
 
         <div class = 'container' id="Chart2" style="text-align: center">
             <h2 style="color:blue">Profits vs Sales</h2>
-            <div class="social">
-                <a target="_blank" href="https://twitter.com/HEMANTHCHANDRA7"><i class="ri-twitter-fill"></i></a>
-                <a target="_blank" href="https://in.linkedin.com/in/hemanth-varma-b42018223?trk=public_profile_browsemap"> <i class="ri-linkedin-box-fill"></i> </a>
-                <a target="_blank" href="https://github.com/Hemananth69"> <i class="ri-github-fill"></i> </a>
-                <a target="_blank" href="assets/graphs/Hemanth/index.html"> <i class="ri-folder-chart-line"></i> </a>
-            </div>
+
+            <a href="../../../index.html"><i class="fa fa-home"></i></a>
+            <a href="../Hemanth/index.html"><i class="fa fa-arrow-right"></i></a>
+            
             <label for="levelOptions" style="color: black">Select: </label>
             <select id="levelOptions"></select>
             <label style="color: black">  Level</label>

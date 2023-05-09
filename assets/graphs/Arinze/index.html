@@ -9,13 +9,6 @@
       .legend{
         font-weight: bold;
       }
-      /*
-      text{
-       font-family: Arial, Helvetica, sans-serif;
-      }
-      h2{
-      font-family: Arial, Helvetica, sans-serif;
-      }*/
       div.tooltip {
         position: absolute;
         text-align: left;
@@ -47,9 +40,21 @@
         font-family: Arial, Helvetica, sans-serif;
         font-weight: bold;
       }
+        .fa{
+        color: blue;
+        font-size: 20px;
+        padding-left: 10px;
+      }
+
     </style>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
     
-    <script src="//d3js.org/d3.v7.min.js"></script>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Favicons -->
+    <link href="assets/img/faviconG.ico" rel="icon">
+
     <script src="treemap.js"></script>
   </head>
   <body>
@@ -60,6 +65,11 @@
       <div>
         <h2 style="color:blue">Top Locations by Sales Revenue</h2>
       </div>
+
+      <a href="../../graphs/Hemanth/index.html"><i class="fa fa-arrow-left"></i></a>
+      <a href="../../../index.html"><i class="fa fa-home"></i></a>
+      <a href="../../graphs/Peace/index.html"><i class="fa fa-arrow-right"></i></a>
+
       <!-- #f5b645 -->
       <label for="menu1" style="color: black">Select: </label>
       <select id="menu1"></select>
