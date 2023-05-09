@@ -33,7 +33,8 @@ The large dataset obtained from individuals on Kaggle may have some bias due to 
 ### Project Playground
     GitHub was our version control system.
     Repository: https://github.com/Gejix/SuperStore_BA
-<img class="bd-placeholder-img card-img-top" width="30" height="300"src="assets/img/charts Image/Webpage.PNG"></img>
+
+<img class="" width="30" height="300"src="assets/img/charts Image/Webpage.PNG"></img>
 
 ### Project Prototype Development
     A Dashboard was created to reflect the intended charts to be created and this was delegated to Arinze.
