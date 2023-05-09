@@ -350,7 +350,7 @@ function AsterPlot(json){
         
     
         //format xAxis values to 1 significant figures
-        let xAxisFormat = function(d) {return d3.format('$.1s')(d);}
+        let xAxisFormat = function(d) {return d==0? 0 : d < 1000? `$${d.toString()[0]}h`: d3.format('$.1s')(d);}
     
         // Create xAxis with xScale and apply xAxisFormat, remove outer ticks
         let xAxis = d3.axisBottom(xScale).tickFormat(xAxisFormat).tickSizeOuter([0])

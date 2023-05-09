@@ -1,0 +1,182 @@
+[
+    {
+      "Category": "Furniture",
+      "Month": "January",
+      "Sales": 16756.97
+    },
+    {
+      "Category": "Furniture",
+      "Month": "February",
+      "Sales": 13763.27
+    },
+    {
+      "Category": "Furniture",
+      "Month": "March",
+      "Sales": 30977.5
+    },
+    {
+      "Category": "Furniture",
+      "Month": "April",
+      "Sales": 35981.53
+    },
+    {
+      "Category": "Furniture",
+      "Month": "May",
+      "Sales": 30074.07
+    },
+    {
+      "Category": "Furniture",
+      "Month": "June",
+      "Sales": 29256.87
+    },
+    {
+      "Category": "Furniture",
+      "Month": "July",
+      "Sales": 38327.95
+    },
+    {
+      "Category": "Furniture",
+      "Month": "August",
+      "Sales": 34978.61
+    },
+    {
+      "Category": "Furniture",
+      "Month": "September",
+      "Sales": 67774.48
+    },
+    {
+      "Category": "Furniture",
+      "Month": "October",
+      "Sales": 53178.97
+    },
+    {
+      "Category": "Furniture",
+      "Month": "November",
+      "Sales": 82202.62
+    },
+    {
+      "Category": "Furniture",
+      "Month": "December",
+      "Sales": 84398.85
+    },
+    {
+      "Category": "Office Supplies",
+      "Month": "January",
+      "Sales": 64004.24
+    },
+    {
+      "Category": "Office Supplies",
+      "Month": "February",
+      "Sales": 38189.33
+    },
+    {
+      "Category": "Office Supplies",
+      "Month": "March",
+      "Sales": 127983.36
+    },
+    {
+      "Category": "Office Supplies",
+      "Month": "April",
+      "Sales": 76271.43
+    },
+    {
+      "Category": "Office Supplies",
+      "Month": "May",
+      "Sales": 96875.87
+    },
+    {
+      "Category": "Office Supplies",
+      "Month": "June",
+      "Sales": 94895.09
+    },
+    {
+      "Category": "Office Supplies",
+      "Month": "July",
+      "Sales": 83717.32
+    },
+    {
+      "Category": "Office Supplies",
+      "Month": "August",
+      "Sales": 102104.45
+    },
+    {
+      "Category": "Office Supplies",
+      "Month": "September",
+      "Sales": 164070.28
+    },
+    {
+      "Category": "Office Supplies",
+      "Month": "October",
+      "Sales": 109037.56
+    },
+    {
+      "Category": "Office Supplies",
+      "Month": "November",
+      "Sales": 203826.32
+    },
+    {
+      "Category": "Office Supplies",
+      "Month": "December",
+      "Sales": 180009.78
+    },
+    {
+      "Category": "Technology",
+      "Month": "January",
+      "Sales": 14163.66
+    },
+    {
+      "Category": "Technology",
+      "Month": "February",
+      "Sales": 7798.66
+    },
+    {
+      "Category": "Technology",
+      "Month": "March",
+      "Sales": 46044.65
+    },
+    {
+      "Category": "Technology",
+      "Month": "April",
+      "Sales": 25509.2
+    },
+    {
+      "Category": "Technology",
+      "Month": "May",
+      "Sales": 28078.89
+    },
+    {
+      "Category": "Technology",
+      "Month": "June",
+      "Sales": 28566.76
+    },
+    {
+      "Category": "Technology",
+      "Month": "July",
+      "Sales": 25192.84
+    },
+    {
+      "Category": "Technology",
+      "Month": "August",
+      "Sales": 21960.93
+    },
+    {
+      "Category": "Technology",
+      "Month": "September",
+      "Sales": 75805.2
+    },
+    {
+      "Category": "Technology",
+      "Month": "October",
+      "Sales": 38106.5
+    },
+    {
+      "Category": "Technology",
+      "Month": "November",
+      "Sales": 66432.15
+    },
+    {
+      "Category": "Technology",
+      "Month": "December",
+      "Sales": 60884.91
+    }
+   ]

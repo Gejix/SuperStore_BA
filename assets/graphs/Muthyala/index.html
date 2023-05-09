@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      div{
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .legend{
+        font-weight: bold;
+      }
+      div.tooltip {
+        position: absolute;
+        text-align: left;
+        width: auto;
+        padding: 10px;
+        /*font-family: Arial, Helvetica, sans-serif;*/
+        font-size: 14px;
+        box-shadow: 0 0 5px #999999;
+        border-radius: 5px;
+        background: white;
+        pointer-events: none;
+        border: 1px solid #999999;
+        color: black;
+      }
+        .fa{
+        color: blue;
+        font-size: 20px;
+        padding-left: 10px;
+      }
+
+    </style>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Favicons -->
+    <link href="assets/img/faviconG.ico" rel="icon">
+
+    <script src="Aster.js"></script>
+  </head>
+  <body>
+    <!-- style="background: #000066" -->
+    <div class = 'container' style="text-align: center">
+      <h2  style="color:blue">Profit Share by Segments and Customers</h2>
+
+      <a href="../../graphs/Samuel-Adenyi/index.html"><i class="fa fa-arrow-left"></i></a>
+      <a href="../../../index.html"><i class="fa fa-home"></i></a>
+      <a href="../../graphs/Mmaduanusi/index.html"><i class="fa fa-arrow-right"></i></a>
+
+      <!-- style="color: #f5b645" -->
+      <label style="color: black" for="menu">Select Category: </label>
+      <select id="menu"></select>
+      <br />
+      <div id="donutchart"></div>
+    </div>
+
+    <div class = 'container' style="text-align: center; border: 10px solid transparent">
+      <br>
+      <span style="color:blue"><strong><u>Insights</u></strong></span>
+      <div class = 'container' style="text-align: center; padding-left: 20%;padding-right: 20%; border: 10px solid transparent">
+      <ul style="text-align: left; ">
+        <li>
+          The Consumer segment was the most profitable for the business, followed by the Corporate segment., while the Home Office segment was the least profitable. 
+        </li>
+        <li>
+          Within the Corporate segment, the Furniture category accounted for 41% of the market share and generated the highest profits. 
+        </li>
+        <li>
+          In contrast, the Consumer segment made the most profit from both the Office Supply and Technology categories, with market shares of 46% and 49%, respectively.
+        </li>
+      </ul>
+      </div>
+
+    </div>
+
+  </body>
+
+  
+</html>

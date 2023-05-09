@@ -67,8 +67,9 @@
         <div class = 'container' id="Chart2" style="text-align: center">
             <h2 style="color:blue">Profits vs Sales</h2>
 
+            <a href="../Turnah/index.html"><i class="fa fa-arrow-left"></i></a>
             <a href="../../../index.html"><i class="fa fa-home"></i></a>
-            <a href="../Hemanth/index.html"><i class="fa fa-arrow-right"></i></a>
+            <a href="../Muthyala/index.html"><i class="fa fa-arrow-right"></i></a>
             
             <label for="levelOptions" style="color: black">Select: </label>
             <select id="levelOptions"></select>
@@ -98,6 +99,7 @@
 
                 // Global Variables
                 let yScale, xScale, plotData, yAxis, yAxisGroup, xAxis, xAxisGroup, maxz, selectedCategory;
+                let focusState;
 
                 // Data elements
                 let labels, dots, graph;
@@ -666,7 +668,7 @@
                                     .attr('class', function(d){ return `legend ${d.replace(' ', '_')}` })
                                     .classed('button', true)
 
-
+           
 
             // Adding Event to legend
             legendText
@@ -680,6 +682,7 @@
                         d3.selectAll('.legend').style('opacity', 1)
                         // Reset category selection
                         selectedCategory = null;
+                        focusState = false;
                     }
                     else{
                         // Update selected category with clicked
@@ -688,6 +691,7 @@
                         selectCategory(selectedCategory)
                         d3.selectAll('.legend').style('opacity', 0.3)
                         d3.selectAll(`.legend.${selectedCategory.replace(' ', '_')}`).style('opacity', 1)
+                        focusState = true;
                     }
                 }
             )
@@ -729,7 +733,16 @@
                 d3.select('#plotArea').html('') 
                 // create new instance of triangles
                 plotpolygon(true, 0) 
-            };           
+            };   
+            
+            svg.on('dblclick', function(event){
+                if(focusState == true){
+                    // Bring back all polygons
+                    allCategory()
+                    // Remove transparency from legend
+                    d3.selectAll('.legend').style('opacity', 1)
+                }
+            })
 
         }
 

@@ -613,7 +613,7 @@ function treemap(json) {
 
     // Force negative values to positive and format xAxis values to 2 significant figures
     // If d = 0, return 0
-    let xAxisFormat = function(d) {return d3.format('$.1s')(d);}
+    let xAxisFormat = function(d) {return d==0? 0 : d < 1000? `$${d.toString()[0]}h`: d3.format('$.1s')(d);}
 
     // Create xAxis with xScale and apply xAxisFormat, remove outer ticks
     let xAxis = d3.axisBottom(xScale).tickFormat(xAxisFormat).tickSizeOuter([0])
