@@ -4,4 +4,4 @@ This graph shows a Aster Chart
 
 The Aster Plot displays radial slices whose radius is based on a numeric measure and whose arc length is based on a 'weighted' measure. This visualization is similar to a Pie or Donut visualization, but differs in that a second 'weighted' measure is provided to determine a slice's arc length.
 
-<img class="bd-placeholder-img card-img-top" width="30" height="300"src="assets/img/charts Image/Hemanth.PNG"></img>
+<img class="" width="30" height="300"src="assets/img/charts Image/Hemanth.PNG"></img>
