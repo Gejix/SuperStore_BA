@@ -7,8 +7,8 @@ function tornadoChart(data) {
                                 .range(['brown','orange','dodgerblue'])
     
     const costProfitScheme = d3.scaleOrdinal()
-                                .range(['#f9b814', 'limegreen', 'red']) //"#008083"
-                                .domain(['Cost', 'Profit', 'Loss']) 
+                                .range(['#f9b814', 'limegreen', 'red'])
+                                .domain(['Cost', 'Profit', 'Loss'])
 
     let animateoutduration = 500,
         animationInDuration = 800
@@ -16,7 +16,7 @@ function tornadoChart(data) {
         symbolsize = 200;
 
     // Global variables in tornadoChart function
-    let maxCost, minCost, maxProfit, minProfit, selectcondition, xScale, filteredbycategory, category, topOrBottom;      //xScale is here because of transition out
+    let maxCost, minCost, maxProfit, minProfit, selectcondition, xScale, filteredbycategory, category, topOrBottom = 'Top';      //xScale is here because of transition out
 
     
     data.forEach(function(d){
@@ -508,22 +508,46 @@ function tornadoChart(data) {
         // create squares for legend using d3 symbol
         let square = d3.symbol().type(d3.symbolSquare)//.size(150);
 
+         // list for legend
+         let legendList = ['Cost']
+         if(selectcondition == 'Segment' || selectcondition == 'Category'){
+            legendList.push('Profit')
+         }else{
+            if(selectcondition == 'Sub-Category'){
+                legendList.push('Profit','Loss')
+            }else{
+
+         if(topOrBottom == 'Top'){
+             legendList.push('Profit')
+             if(filtereddata[9].Profit < 0){
+                 legendList.push('Loss')
+             }
+         }else{
+             legendList.push('Loss')
+             if(filtereddata[filtereddata.length - 1].Profit > 0){
+                 legendList.push('Profit')
+             }
+         }
+        }
+        }
+         console.log(legendList)
+
         // then append squares using path element to create legend
         let legend = svg.append('g')
                         .attr('id', 'colorLegend')
                         .selectAll('path')
-                        .data(costProfitScheme.domain())
+                        .data(legendList)
                         .enter().append('path')
                         .attr('d', square.size(symbolsize))
-                        .attr('fill', costProfitScheme)
+                        .attr('fill', function(d){return costProfitScheme(d)})
                         .attr('transform', (d,i) => `translate(${width + 30},${i * 40 + 15})`)
-
 
         let legendText = d3.select('#colorLegend')
                             .selectAll('text')
-                            .data(costProfitScheme.domain())
+                            .data(legendList)
                             .enter().append('text')
-                            .text(d => d).attr('fill', costProfitScheme)
+                            .text(d=> d)
+                            .attr('fill', function(d){return costProfitScheme(d)})
                             .attr('transform', (d,i) => `translate(${width + 40},${i * 40 + 15})`)
                             .attr('dy', '.35em')
                             .classed('button', true)
