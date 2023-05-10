@@ -1,8 +1,6 @@
-# Traingle chart
+# Triangle chart
 
-preliminary update on traingle chart on sales
-
-A Triangle chart is a variation of a scatter chart in which the data points are replaced with traingles, and an additional dimension of the data is represented in the size of the traingles.
+A Triangle chart is a variation of a scatter chart in which the data points are replaced with traingles, and an additional dimension of the data is represented in the size of the triangles.
 
 <img src="../../img/charts Image/Yemi.PNG" alt="App interface" width="1000" height="600">
 

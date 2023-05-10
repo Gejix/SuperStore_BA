@@ -1,8 +1,8 @@
 # Stacked Area Chart
 
-This graph shows a Area Stacked Chart
+This graph shows an Area Stacked Chart
 
-In a stacked area chart, all of the lines are stacked on top of each other over a straight baseline at the bottom of the stack. With a stream graph, the baseline is set through the center of the chart, and the areas symmetrically gathered around the central line.
+In a stacked area chart, all of the lines are stacked on top of each other over a straight baseline at the bottom of the stack. The baseline is set through the center of the chart, and the areas symmetrically gathered around the central line.
 
 <img src="../../img/charts Image/Peace.PNG" alt="App interface" width="1000" height="600">
 
