@@ -76,11 +76,11 @@ The large dataset obtained from individuals on Kaggle may have some bias due to 
 This Project creted out by:
 
 <ul>
-  <li><a target="_blank" href="https://github.com/Gejix">Gerald Juwah <i>ScrMaster</i></a></li>
-  <li><a target="_blank" href="https://github.com/pturnah">Peace Turn<i>Finacial analysist</i></a></li>
-  <li><a target="_blank" href="https://github.com/Arinzeuche">Arinze Mmaduanu<i>Marketing Manager</i></a></li>
-  <li><a target="_blank" href="https://github.com/Yemisam">OpeyeSamuel-Adeniyi <i>Product Owner</i></a></li>
-  <li><a target="_blank" href="https://github.com/Hemananth69">Hemanth Muthya<i>customer service manager</i></a></li>
+  <li><a target="_blank" href="https://github.com/Gejix">Gerald Juwah <i> as the ScruM Master</i></a></li>
+  <li><a target="_blank" href="https://github.com/pturnah">Peace Turn <i> as the Finacial analysist</i></a></li>
+  <li><a target="_blank" href="https://github.com/Arinzeuche">Arinze Mmaduanu <i>as the Marketing Manager</i></a></li>
+  <li><a target="_blank" href="https://github.com/Yemisam">OpeyeSamuel-Adeniyi <i>as the Product Owner</i></a></li>
+  <li><a target="_blank" href="https://github.com/Hemananth69">Hemanth Muthya <i>as the customer service manager</i></a></li>
 </ul>
 
 <div class="copyright">
