@@ -1,0 +1,1442 @@
+[
+ {
+   "Year": 2014,
+   "Month": "January",
+   "Category": "Furniture",
+   "Sales": 6242.53,
+   "Stackedmax": 14236.9,
+   "Stackedmin": 7994.37,
+   "Profit": 805.46,
+   "ProfitMargin": 0.13
+ },
+ {
+   "Year": 2014,
+   "Month": "February",
+   "Category": "Furniture",
+   "Sales": 1839.66,
+   "Stackedmax": 4519.92,
+   "Stackedmin": 2680.26,
+   "Profit": 120.69,
+   "ProfitMargin": 0.07
+ },
+ {
+   "Year": 2014,
+   "Month": "March",
+   "Category": "Furniture",
+   "Sales": 14573.98,
+   "Stackedmax": 55691.04,
+   "Stackedmin": 41117.06,
+   "Profit": -1128.65,
+   "ProfitMargin": -0.08
+ },
+ {
+   "Year": 2014,
+   "Month": "April",
+   "Category": "Furniture",
+   "Sales": 7944.83,
+   "Stackedmax": 28295.35,
+   "Stackedmin": 20350.52,
+   "Profit": 554.37,
+   "ProfitMargin": 0.07
+ },
+ {
+   "Year": 2014,
+   "Month": "May",
+   "Category": "Furniture",
+   "Sales": 6912.8,
+   "Stackedmax": 23648.28,
+   "Stackedmin": 16735.48,
+   "Profit": -349.86,
+   "ProfitMargin": -0.05
+ },
+ {
+   "Year": 2014,
+   "Month": "June",
+   "Category": "Furniture",
+   "Sales": 13206.12,
+   "Stackedmax": 34595.14,
+   "Stackedmin": 21389.02,
+   "Profit": 596.3,
+   "ProfitMargin": 0.05
+ },
+ {
+   "Year": 2014,
+   "Month": "July",
+   "Category": "Furniture",
+   "Sales": 10821.07,
+   "Stackedmax": 33946.37,
+   "Stackedmin": 23125.3,
+   "Profit": 374.25,
+   "ProfitMargin": 0.03
+ },
+ {
+   "Year": 2014,
+   "Month": "August",
+   "Category": "Furniture",
+   "Sales": 7320.35,
+   "Stackedmax": 27909.47,
+   "Stackedmin": 20589.12,
+   "Profit": 663.47,
+   "ProfitMargin": 0.09
+ },
+ {
+   "Year": 2014,
+   "Month": "September",
+   "Category": "Furniture",
+   "Sales": 23816.48,
+   "Stackedmax": 81777.34,
+   "Stackedmin": 57960.86,
+   "Profit": 1858.59,
+   "ProfitMargin": 0.08
+ },
+ {
+   "Year": 2014,
+   "Month": "October",
+   "Category": "Furniture",
+   "Sales": 12304.24,
+   "Stackedmax": 31453.37,
+   "Stackedmin": 19149.13,
+   "Profit": 249.13,
+   "ProfitMargin": 0.02
+ },
+ {
+   "Year": 2014,
+   "Month": "November",
+   "Category": "Furniture",
+   "Sales": 21564.86,
+   "Stackedmax": 78628.74,
+   "Stackedmin": 57063.88,
+   "Profit": -297.88,
+   "ProfitMargin": -0.01
+ },
+ {
+   "Year": 2014,
+   "Month": "December",
+   "Category": "Furniture",
+   "Sales": 30645.97,
+   "Stackedmax": 69545.64,
+   "Stackedmin": 38899.67,
+   "Profit": 2011.84,
+   "ProfitMargin": 0.07
+ },
+ {
+   "Year": 2015,
+   "Month": "January",
+   "Category": "Furniture",
+   "Sales": 11739.93,
+   "Stackedmax": 18174.08,
+   "Stackedmin": 6434.15,
+   "Profit": -3014.19,
+   "ProfitMargin": -0.26
+ },
+ {
+   "Year": 2015,
+   "Month": "February",
+   "Category": "Furniture",
+   "Sales": 3134.37,
+   "Stackedmax": 11951.4,
+   "Stackedmin": 8817.03,
+   "Profit": 394.91,
+   "ProfitMargin": 0.13
+ },
+ {
+   "Year": 2015,
+   "Month": "March",
+   "Category": "Furniture",
+   "Sales": 12499.79,
+   "Stackedmax": 38726.26,
+   "Stackedmin": 26226.47,
+   "Profit": 1455.05,
+   "ProfitMargin": 0.12
+ },
+ {
+   "Year": 2015,
+   "Month": "April",
+   "Category": "Furniture",
+   "Sales": 10475.71,
+   "Stackedmax": 34195.25,
+   "Stackedmin": 23719.54,
+   "Profit": 338.65,
+   "ProfitMargin": 0.03
+ },
+ {
+   "Year": 2015,
+   "Month": "May",
+   "Category": "Furniture",
+   "Sales": 9374.97,
+   "Stackedmax": 30131.72,
+   "Stackedmin": 20756.75,
+   "Profit": 900.55,
+   "ProfitMargin": 0.1
+ },
+ {
+   "Year": 2015,
+   "Month": "June",
+   "Category": "Furniture",
+   "Sales": 7714.18,
+   "Stackedmax": 24797.31,
+   "Stackedmin": 17083.13,
+   "Profit": -412.66,
+   "ProfitMargin": -0.05
+ },
+ {
+   "Year": 2015,
+   "Month": "July",
+   "Category": "Furniture",
+   "Sales": 13674.42,
+   "Stackedmax": 28765.32,
+   "Stackedmin": 15090.9,
+   "Profit": -325.1,
+   "ProfitMargin": -0.02
+ },
+ {
+   "Year": 2015,
+   "Month": "August",
+   "Category": "Furniture",
+   "Sales": 9638.59,
+   "Stackedmax": 36898.32,
+   "Stackedmin": 27259.73,
+   "Profit": -487.48,
+   "ProfitMargin": -0.05
+ },
+ {
+   "Year": 2015,
+   "Month": "September",
+   "Category": "Furniture",
+   "Sales": 26273.03,
+   "Stackedmax": 64595.87,
+   "Stackedmin": 38322.84,
+   "Profit": 1350.1,
+   "ProfitMargin": 0.05
+ },
+ {
+   "Year": 2015,
+   "Month": "October",
+   "Category": "Furniture",
+   "Sales": 12026.64,
+   "Stackedmax": 31404.9,
+   "Stackedmin": 19378.26,
+   "Profit": -605.52,
+   "ProfitMargin": -0.05
+ },
+ {
+   "Year": 2015,
+   "Month": "November",
+   "Category": "Furniture",
+   "Sales": 30880.8,
+   "Stackedmax": 75972.51,
+   "Stackedmin": 45091.71,
+   "Profit": 2992.05,
+   "ProfitMargin": 0.1
+ },
+ {
+   "Year": 2015,
+   "Month": "December",
+   "Category": "Furniture",
+   "Sales": 23085.83,
+   "Stackedmax": 74919.52,
+   "Stackedmin": 51833.69,
+   "Profit": 428.81,
+   "ProfitMargin": 0.02
+ },
+ {
+   "Year": 2016,
+   "Month": "January",
+   "Category": "Furniture",
+   "Sales": 7622.76,
+   "Stackedmax": 18542.52,
+   "Stackedmin": 10919.76,
+   "Profit": 303.97,
+   "ProfitMargin": 0.04
+ },
+ {
+   "Year": 2016,
+   "Month": "February",
+   "Category": "Furniture",
+   "Sales": 3925.55,
+   "Stackedmax": 22978.82,
+   "Stackedmin": 19053.27,
+   "Profit": 377.03,
+   "ProfitMargin": 0.1
+ },
+ {
+   "Year": 2016,
+   "Month": "March",
+   "Category": "Furniture",
+   "Sales": 12801.1,
+   "Stackedmax": 51715.86,
+   "Stackedmin": 38914.76,
+   "Profit": -555.27,
+   "ProfitMargin": -0.04
+ },
+ {
+   "Year": 2016,
+   "Month": "April",
+   "Category": "Furniture",
+   "Sales": 13212.1,
+   "Stackedmax": 38750.04,
+   "Stackedmin": 25537.94,
+   "Profit": 364.87,
+   "ProfitMargin": 0.03
+ },
+ {
+   "Year": 2016,
+   "Month": "May",
+   "Category": "Furniture",
+   "Sales": 15119.83,
+   "Stackedmax": 56987.75,
+   "Stackedmin": 41867.92,
+   "Profit": 1824.48,
+   "ProfitMargin": 0.12
+ },
+ {
+   "Year": 2016,
+   "Month": "June",
+   "Category": "Furniture",
+   "Sales": 13070.59,
+   "Stackedmax": 40344.54,
+   "Stackedmin": 27273.95,
+   "Profit": -106.29,
+   "ProfitMargin": -0.01
+ },
+ {
+   "Year": 2016,
+   "Month": "July",
+   "Category": "Furniture",
+   "Sales": 13068.53,
+   "Stackedmax": 39261.99,
+   "Stackedmin": 26193.46,
+   "Profit": 1038.92,
+   "ProfitMargin": 0.08
+ },
+ {
+   "Year": 2016,
+   "Month": "August",
+   "Category": "Furniture",
+   "Sales": 12483.22,
+   "Stackedmax": 31115.35,
+   "Stackedmin": 18632.13,
+   "Profit": -494.14,
+   "ProfitMargin": -0.04
+ },
+ {
+   "Year": 2016,
+   "Month": "September",
+   "Category": "Furniture",
+   "Sales": 27262.91,
+   "Stackedmax": 73410.09,
+   "Stackedmin": 46147.18,
+   "Profit": 702.56,
+   "ProfitMargin": 0.03
+ },
+ {
+   "Year": 2016,
+   "Month": "October",
+   "Category": "Furniture",
+   "Sales": 11872.6,
+   "Stackedmax": 59687.8,
+   "Stackedmin": 47815.2,
+   "Profit": -144.66,
+   "ProfitMargin": -0.01
+ },
+ {
+   "Year": 2016,
+   "Month": "November",
+   "Category": "Furniture",
+   "Sales": 31783.63,
+   "Stackedmax": 79412.03,
+   "Stackedmin": 47628.4,
+   "Profit": 819.8,
+   "ProfitMargin": 0.03
+ },
+ {
+   "Year": 2016,
+   "Month": "December",
+   "Category": "Furniture",
+   "Sales": 36678.73,
+   "Stackedmax": 96999.07,
+   "Stackedmin": 60320.34,
+   "Profit": 2828.66,
+   "ProfitMargin": 0.08
+ },
+ {
+   "Year": 2017,
+   "Month": "January",
+   "Category": "Furniture",
+   "Sales": 5964.04,
+   "Stackedmax": 43971.37,
+   "Stackedmin": 38007.33,
+   "Profit": -39.45,
+   "ProfitMargin": -0.01
+ },
+ {
+   "Year": 2017,
+   "Month": "February",
+   "Category": "Furniture",
+   "Sales": 6866.32,
+   "Stackedmax": 20301.12,
+   "Stackedmin": 13434.8,
+   "Profit": -199.05,
+   "ProfitMargin": -0.03
+ },
+ {
+   "Year": 2017,
+   "Month": "March",
+   "Category": "Furniture",
+   "Sales": 10893.44,
+   "Stackedmax": 58872.35,
+   "Stackedmin": 47978.91,
+   "Profit": 1000.83,
+   "ProfitMargin": 0.09
+ },
+ {
+   "Year": 2017,
+   "Month": "April",
+   "Category": "Furniture",
+   "Sales": 9065.93,
+   "Stackedmax": 36521.52,
+   "Stackedmin": 27455.59,
+   "Profit": 202.46,
+   "ProfitMargin": 0.02
+ },
+ {
+   "Year": 2017,
+   "Month": "May",
+   "Category": "Furniture",
+   "Sales": 16957.55,
+   "Stackedmax": 44261.08,
+   "Stackedmin": 27303.53,
+   "Profit": -72.86,
+   "ProfitMargin": 0
+ },
+ {
+   "Year": 2017,
+   "Month": "June",
+   "Category": "Furniture",
+   "Sales": 19008.61,
+   "Stackedmax": 52981.73,
+   "Stackedmin": 33973.12,
+   "Profit": 905,
+   "ProfitMargin": 0.05
+ },
+ {
+   "Year": 2017,
+   "Month": "July",
+   "Category": "Furniture",
+   "Sales": 11813.03,
+   "Stackedmax": 45264.43,
+   "Stackedmin": 33451.4,
+   "Profit": 324.61,
+   "ProfitMargin": 0.03
+ },
+ {
+   "Year": 2017,
+   "Month": "August",
+   "Category": "Furniture",
+   "Sales": 15441.85,
+   "Stackedmax": 63120.85,
+   "Stackedmin": 47679,
+   "Profit": 322.26,
+   "ProfitMargin": 0.02
+ },
+ {
+   "Year": 2017,
+   "Month": "September",
+   "Category": "Furniture",
+   "Sales": 29028.22,
+   "Stackedmax": 87866.66,
+   "Stackedmin": 58838.44,
+   "Profit": 1548.71,
+   "ProfitMargin": 0.05
+ },
+ {
+   "Year": 2017,
+   "Month": "October",
+   "Category": "Furniture",
+   "Sales": 21884.11,
+   "Stackedmax": 77776.96,
+   "Stackedmin": 55892.85,
+   "Profit": -2526.9,
+   "ProfitMargin": -0.12
+ },
+ {
+   "Year": 2017,
+   "Month": "November",
+   "Category": "Furniture",
+   "Sales": 37056.73,
+   "Stackedmax": 118447.81,
+   "Stackedmin": 81391.08,
+   "Profit": 406.06,
+   "ProfitMargin": 0.01
+ },
+ {
+   "Year": 2017,
+   "Month": "December",
+   "Category": "Furniture",
+   "Sales": 31407.45,
+   "Stackedmax": 83829.31,
+   "Stackedmin": 52421.86,
+   "Profit": 1146.77,
+   "ProfitMargin": 0.04
+ },
+ {
+   "Year": 2014,
+   "Month": "January",
+   "Category": "Office Supplies",
+   "Sales": 4851.08,
+   "Stackedmax": 7994.37,
+   "Stackedmin": 3143.29,
+   "Profit": 788.95,
+   "ProfitMargin": 0.16
+ },
+ {
+   "Year": 2014,
+   "Month": "February",
+   "Category": "Office Supplies",
+   "Sales": 1071.75,
+   "Stackedmax": 2680.26,
+   "Stackedmin": 1608.51,
+   "Profit": 176.08,
+   "ProfitMargin": 0.16
+ },
+ {
+   "Year": 2014,
+   "Month": "March",
+   "Category": "Office Supplies",
+   "Sales": 8605.89,
+   "Stackedmax": 41117.06,
+   "Stackedmin": 32511.17,
+   "Profit": 1270.39,
+   "ProfitMargin": 0.15
+ },
+ {
+   "Year": 2014,
+   "Month": "April",
+   "Category": "Office Supplies",
+   "Sales": 11155.08,
+   "Stackedmax": 20350.52,
+   "Stackedmin": 9195.44,
+   "Profit": 1000.25,
+   "ProfitMargin": 0.09
+ },
+ {
+   "Year": 2014,
+   "Month": "May",
+   "Category": "Office Supplies",
+   "Sales": 7135.62,
+   "Stackedmax": 16735.48,
+   "Stackedmin": 9599.86,
+   "Profit": 1747.21,
+   "ProfitMargin": 0.24
+ },
+ {
+   "Year": 2014,
+   "Month": "June",
+   "Category": "Office Supplies",
+   "Sales": 12953.07,
+   "Stackedmax": 21389.02,
+   "Stackedmin": 8435.95,
+   "Profit": 3031.47,
+   "ProfitMargin": 0.23
+ },
+ {
+   "Year": 2014,
+   "Month": "July",
+   "Category": "Office Supplies",
+   "Sales": 15121.16,
+   "Stackedmax": 23125.3,
+   "Stackedmin": 8004.14,
+   "Profit": -2482.01,
+   "ProfitMargin": -0.16
+ },
+ {
+   "Year": 2014,
+   "Month": "August",
+   "Category": "Office Supplies",
+   "Sales": 11379.45,
+   "Stackedmax": 20589.12,
+   "Stackedmin": 9209.67,
+   "Profit": 2767.58,
+   "ProfitMargin": 0.24
+ },
+ {
+   "Year": 2014,
+   "Month": "September",
+   "Category": "Office Supplies",
+   "Sales": 27423.29,
+   "Stackedmax": 57960.86,
+   "Stackedmin": 30537.57,
+   "Profit": 6699.51,
+   "ProfitMargin": 0.24
+ },
+ {
+   "Year": 2014,
+   "Month": "October",
+   "Category": "Office Supplies",
+   "Sales": 7211.11,
+   "Stackedmax": 19149.13,
+   "Stackedmin": 11938.02,
+   "Profit": 1117.64,
+   "ProfitMargin": 0.15
+ },
+ {
+   "Year": 2014,
+   "Month": "November",
+   "Category": "Office Supplies",
+   "Sales": 26862.46,
+   "Stackedmax": 57063.88,
+   "Stackedmin": 30201.42,
+   "Profit": 4411.96,
+   "ProfitMargin": 0.16
+ },
+ {
+   "Year": 2014,
+   "Month": "December",
+   "Category": "Office Supplies",
+   "Sales": 18006.45,
+   "Stackedmax": 38899.67,
+   "Stackedmin": 20893.22,
+   "Profit": 2064.37,
+   "ProfitMargin": 0.11
+ },
+ {
+   "Year": 2015,
+   "Month": "January",
+   "Category": "Office Supplies",
+   "Sales": 1808.79,
+   "Stackedmax": 6434.15,
+   "Stackedmin": 4625.36,
+   "Profit": 589.91,
+   "ProfitMargin": 0.33
+ },
+ {
+   "Year": 2015,
+   "Month": "February",
+   "Category": "Office Supplies",
+   "Sales": 5368.06,
+   "Stackedmax": 8817.03,
+   "Stackedmin": 3448.97,
+   "Profit": 1814.08,
+   "ProfitMargin": 0.34
+ },
+ {
+   "Year": 2015,
+   "Month": "March",
+   "Category": "Office Supplies",
+   "Sales": 15882.55,
+   "Stackedmax": 26226.47,
+   "Stackedmin": 10343.92,
+   "Profit": 5407.82,
+   "ProfitMargin": 0.34
+ },
+ {
+   "Year": 2015,
+   "Month": "April",
+   "Category": "Office Supplies",
+   "Sales": 12558.56,
+   "Stackedmax": 23719.54,
+   "Stackedmin": 11160.98,
+   "Profit": 1477.39,
+   "ProfitMargin": 0.12
+ },
+ {
+   "Year": 2015,
+   "Month": "May",
+   "Category": "Office Supplies",
+   "Sales": 9113.77,
+   "Stackedmax": 20756.75,
+   "Stackedmin": 11642.98,
+   "Profit": 1731.6,
+   "ProfitMargin": 0.19
+ },
+ {
+   "Year": 2015,
+   "Month": "June",
+   "Category": "Office Supplies",
+   "Sales": 10647.76,
+   "Stackedmax": 17083.13,
+   "Stackedmin": 6435.37,
+   "Profit": 2195.39,
+   "ProfitMargin": 0.21
+ },
+ {
+   "Year": 2015,
+   "Month": "July",
+   "Category": "Office Supplies",
+   "Sales": 4719.94,
+   "Stackedmax": 15090.9,
+   "Stackedmin": 10370.96,
+   "Profit": 1113.83,
+   "ProfitMargin": 0.24
+ },
+ {
+   "Year": 2015,
+   "Month": "August",
+   "Category": "Office Supplies",
+   "Sales": 11735.09,
+   "Stackedmax": 27259.73,
+   "Stackedmin": 15524.64,
+   "Profit": 2208.77,
+   "ProfitMargin": 0.19
+ },
+ {
+   "Year": 2015,
+   "Month": "September",
+   "Category": "Office Supplies",
+   "Sales": 19305.73,
+   "Stackedmax": 38322.84,
+   "Stackedmin": 19017.11,
+   "Profit": 2037.91,
+   "ProfitMargin": 0.11
+ },
+ {
+   "Year": 2015,
+   "Month": "October",
+   "Category": "Office Supplies",
+   "Sales": 8673.39,
+   "Stackedmax": 19378.26,
+   "Stackedmin": 10704.87,
+   "Profit": 1090.93,
+   "ProfitMargin": 0.13
+ },
+ {
+   "Year": 2015,
+   "Month": "November",
+   "Category": "Office Supplies",
+   "Sales": 21218.1,
+   "Stackedmax": 45091.71,
+   "Stackedmin": 23873.61,
+   "Profit": 2800.02,
+   "ProfitMargin": 0.13
+ },
+ {
+   "Year": 2015,
+   "Month": "December",
+   "Category": "Office Supplies",
+   "Sales": 16201.68,
+   "Stackedmax": 51833.69,
+   "Stackedmin": 35632.01,
+   "Profit": 2631.9,
+   "ProfitMargin": 0.16
+ },
+ {
+   "Year": 2016,
+   "Month": "January",
+   "Category": "Office Supplies",
+   "Sales": 5299.69,
+   "Stackedmax": 10919.76,
+   "Stackedmin": 5620.07,
+   "Profit": 1604.46,
+   "ProfitMargin": 0.3
+ },
+ {
+   "Year": 2016,
+   "Month": "February",
+   "Category": "Office Supplies",
+   "Sales": 6794.35,
+   "Stackedmax": 19053.27,
+   "Stackedmin": 12258.92,
+   "Profit": 1330,
+   "ProfitMargin": 0.2
+ },
+ {
+   "Year": 2016,
+   "Month": "March",
+   "Category": "Office Supplies",
+   "Sales": 17346.91,
+   "Stackedmax": 38914.76,
+   "Stackedmin": 21567.85,
+   "Profit": 1061.4,
+   "ProfitMargin": 0.06
+ },
+ {
+   "Year": 2016,
+   "Month": "April",
+   "Category": "Office Supplies",
+   "Sales": 10647.43,
+   "Stackedmax": 25537.94,
+   "Stackedmin": 14890.51,
+   "Profit": -1100.45,
+   "ProfitMargin": -0.1
+ },
+ {
+   "Year": 2016,
+   "Month": "May",
+   "Category": "Office Supplies",
+   "Sales": 13035.2,
+   "Stackedmax": 41867.92,
+   "Stackedmin": 28832.72,
+   "Profit": 2397.42,
+   "ProfitMargin": 0.18
+ },
+ {
+   "Year": 2016,
+   "Month": "June",
+   "Category": "Office Supplies",
+   "Sales": 10901.8,
+   "Stackedmax": 27273.95,
+   "Stackedmin": 16372.15,
+   "Profit": 2467.49,
+   "ProfitMargin": 0.23
+ },
+ {
+   "Year": 2016,
+   "Month": "July",
+   "Category": "Office Supplies",
+   "Sales": 12924.46,
+   "Stackedmax": 26193.46,
+   "Stackedmin": 13269,
+   "Profit": 1123.94,
+   "ProfitMargin": 0.09
+ },
+ {
+   "Year": 2016,
+   "Month": "August",
+   "Category": "Office Supplies",
+   "Sales": 8959.73,
+   "Stackedmax": 18632.13,
+   "Stackedmin": 9672.4,
+   "Profit": 1629.15,
+   "ProfitMargin": 0.18
+ },
+ {
+   "Year": 2016,
+   "Month": "September",
+   "Category": "Office Supplies",
+   "Sales": 23263.78,
+   "Stackedmax": 46147.18,
+   "Stackedmin": 22883.4,
+   "Profit": 3714.1,
+   "ProfitMargin": 0.16
+ },
+ {
+   "Year": 2016,
+   "Month": "October",
+   "Category": "Office Supplies",
+   "Sales": 16281.82,
+   "Stackedmax": 47815.2,
+   "Stackedmin": 31533.38,
+   "Profit": 4680.09,
+   "ProfitMargin": 0.29
+ },
+ {
+   "Year": 2016,
+   "Month": "November",
+   "Category": "Office Supplies",
+   "Sales": 20487.32,
+   "Stackedmax": 47628.4,
+   "Stackedmin": 27141.08,
+   "Profit": 4686.99,
+   "ProfitMargin": 0.23
+ },
+ {
+   "Year": 2016,
+   "Month": "December",
+   "Category": "Office Supplies",
+   "Sales": 37997.58,
+   "Stackedmax": 60320.34,
+   "Stackedmin": 22322.76,
+   "Profit": 11466.65,
+   "ProfitMargin": 0.3
+ },
+ {
+   "Year": 2017,
+   "Month": "January",
+   "Category": "Office Supplies",
+   "Sales": 21274.29,
+   "Stackedmax": 38007.33,
+   "Stackedmin": 16733.04,
+   "Profit": 3260.43,
+   "ProfitMargin": 0.15
+ },
+ {
+   "Year": 2017,
+   "Month": "February",
+   "Category": "Office Supplies",
+   "Sales": 7407.77,
+   "Stackedmax": 13434.8,
+   "Stackedmin": 6027.03,
+   "Profit": 953.82,
+   "ProfitMargin": 0.13
+ },
+ {
+   "Year": 2017,
+   "Month": "March",
+   "Category": "Office Supplies",
+   "Sales": 14550.29,
+   "Stackedmax": 47978.91,
+   "Stackedmin": 33428.62,
+   "Profit": 2715.95,
+   "ProfitMargin": 0.19
+ },
+ {
+   "Year": 2017,
+   "Month": "April",
+   "Category": "Office Supplies",
+   "Sales": 15072.19,
+   "Stackedmax": 27455.59,
+   "Stackedmin": 12383.4,
+   "Profit": 3370.61,
+   "ProfitMargin": 0.22
+ },
+ {
+   "Year": 2017,
+   "Month": "May",
+   "Category": "Office Supplies",
+   "Sales": 13736.95,
+   "Stackedmax": 27303.53,
+   "Stackedmin": 13566.58,
+   "Profit": 3153.79,
+   "ProfitMargin": 0.23
+ },
+ {
+   "Year": 2017,
+   "Month": "June",
+   "Category": "Office Supplies",
+   "Sales": 16912,
+   "Stackedmax": 33973.12,
+   "Stackedmin": 17061.12,
+   "Profit": 3379.02,
+   "ProfitMargin": 0.2
+ },
+ {
+   "Year": 2017,
+   "Month": "July",
+   "Category": "Office Supplies",
+   "Sales": 10241.48,
+   "Stackedmax": 33451.4,
+   "Stackedmin": 23209.92,
+   "Profit": 2563.27,
+   "ProfitMargin": 0.25
+ },
+ {
+   "Year": 2017,
+   "Month": "August",
+   "Category": "Office Supplies",
+   "Sales": 30059.84,
+   "Stackedmax": 47679,
+   "Stackedmin": 17619.16,
+   "Profit": 6067.92,
+   "ProfitMargin": 0.2
+ },
+ {
+   "Year": 2017,
+   "Month": "September",
+   "Category": "Office Supplies",
+   "Sales": 31895.84,
+   "Stackedmax": 58838.44,
+   "Stackedmin": 26942.6,
+   "Profit": 4847.69,
+   "ProfitMargin": 0.15
+ },
+ {
+   "Year": 2017,
+   "Month": "October",
+   "Category": "Office Supplies",
+   "Sales": 23037.21,
+   "Stackedmax": 55892.85,
+   "Stackedmin": 32855.64,
+   "Profit": 4040.84,
+   "ProfitMargin": 0.18
+ },
+ {
+   "Year": 2017,
+   "Month": "November",
+   "Category": "Office Supplies",
+   "Sales": 31472.31,
+   "Stackedmax": 81391.08,
+   "Stackedmin": 49918.77,
+   "Profit": 3609.02,
+   "ProfitMargin": 0.11
+ },
+ {
+   "Year": 2017,
+   "Month": "December",
+   "Category": "Office Supplies",
+   "Sales": 30436.92,
+   "Stackedmax": 52421.86,
+   "Stackedmin": 21984.94,
+   "Profit": 1774.33,
+   "ProfitMargin": 0.06
+ },
+ {
+   "Year": 2014,
+   "Month": "January",
+   "Category": "Technology",
+   "Sales": 3143.29,
+   "Stackedmax": 3143.29,
+   "Stackedmin": 0,
+   "Profit": 855.77,
+   "ProfitMargin": 0.27
+ },
+ {
+   "Year": 2014,
+   "Month": "February",
+   "Category": "Technology",
+   "Sales": 1608.51,
+   "Stackedmax": 1608.51,
+   "Stackedmin": 0,
+   "Profit": 565.53,
+   "ProfitMargin": 0.35
+ },
+ {
+   "Year": 2014,
+   "Month": "March",
+   "Category": "Technology",
+   "Sales": 32511.17,
+   "Stackedmax": 32511.17,
+   "Stackedmin": 0,
+   "Profit": 356.98,
+   "ProfitMargin": 0.01
+ },
+ {
+   "Year": 2014,
+   "Month": "April",
+   "Category": "Technology",
+   "Sales": 9195.44,
+   "Stackedmax": 9195.44,
+   "Stackedmin": 0,
+   "Profit": 1934.24,
+   "ProfitMargin": 0.21
+ },
+ {
+   "Year": 2014,
+   "Month": "May",
+   "Category": "Technology",
+   "Sales": 9599.86,
+   "Stackedmax": 9599.86,
+   "Stackedmin": 0,
+   "Profit": 1341.39,
+   "ProfitMargin": 0.14
+ },
+ {
+   "Year": 2014,
+   "Month": "June",
+   "Category": "Technology",
+   "Sales": 8435.95,
+   "Stackedmax": 8435.95,
+   "Stackedmin": 0,
+   "Profit": 1348.79,
+   "ProfitMargin": 0.16
+ },
+ {
+   "Year": 2014,
+   "Month": "July",
+   "Category": "Technology",
+   "Sales": 8004.14,
+   "Stackedmax": 8004.14,
+   "Stackedmin": 0,
+   "Profit": 1266.3,
+   "ProfitMargin": 0.16
+ },
+ {
+   "Year": 2014,
+   "Month": "August",
+   "Category": "Technology",
+   "Sales": 9209.67,
+   "Stackedmax": 9209.67,
+   "Stackedmin": 0,
+   "Profit": 1887.06,
+   "ProfitMargin": 0.2
+ },
+ {
+   "Year": 2014,
+   "Month": "September",
+   "Category": "Technology",
+   "Sales": 30537.57,
+   "Stackedmax": 30537.57,
+   "Stackedmin": 0,
+   "Profit": -230.02,
+   "ProfitMargin": -0.01
+ },
+ {
+   "Year": 2014,
+   "Month": "October",
+   "Category": "Technology",
+   "Sales": 11938.02,
+   "Stackedmax": 11938.02,
+   "Stackedmin": 0,
+   "Profit": 2081.46,
+   "ProfitMargin": 0.17
+ },
+ {
+   "Year": 2014,
+   "Month": "November",
+   "Category": "Technology",
+   "Sales": 30201.42,
+   "Stackedmax": 30201.42,
+   "Stackedmin": 0,
+   "Profit": 5178.07,
+   "ProfitMargin": 0.17
+ },
+ {
+   "Year": 2014,
+   "Month": "December",
+   "Category": "Technology",
+   "Sales": 20893.22,
+   "Stackedmax": 20893.22,
+   "Stackedmin": 0,
+   "Profit": 4907.38,
+   "ProfitMargin": 0.23
+ },
+ {
+   "Year": 2015,
+   "Month": "January",
+   "Category": "Technology",
+   "Sales": 4625.36,
+   "Stackedmax": 4625.36,
+   "Stackedmin": 0,
+   "Profit": -856.69,
+   "ProfitMargin": -0.19
+ },
+ {
+   "Year": 2015,
+   "Month": "February",
+   "Category": "Technology",
+   "Sales": 3448.97,
+   "Stackedmax": 3448.97,
+   "Stackedmin": 0,
+   "Profit": 604.85,
+   "ProfitMargin": 0.18
+ },
+ {
+   "Year": 2015,
+   "Month": "March",
+   "Category": "Technology",
+   "Sales": 10343.92,
+   "Stackedmax": 10343.92,
+   "Stackedmin": 0,
+   "Profit": 2869.2,
+   "ProfitMargin": 0.28
+ },
+ {
+   "Year": 2015,
+   "Month": "April",
+   "Category": "Technology",
+   "Sales": 11160.98,
+   "Stackedmax": 11160.98,
+   "Stackedmin": 0,
+   "Profit": 2371.49,
+   "ProfitMargin": 0.21
+ },
+ {
+   "Year": 2015,
+   "Month": "May",
+   "Category": "Technology",
+   "Sales": 11642.98,
+   "Stackedmax": 11642.98,
+   "Stackedmin": 0,
+   "Profit": 2035.68,
+   "ProfitMargin": 0.17
+ },
+ {
+   "Year": 2015,
+   "Month": "June",
+   "Category": "Technology",
+   "Sales": 6435.37,
+   "Stackedmax": 6435.37,
+   "Stackedmin": 0,
+   "Profit": 1552.83,
+   "ProfitMargin": 0.24
+ },
+ {
+   "Year": 2015,
+   "Month": "July",
+   "Category": "Technology",
+   "Sales": 10370.96,
+   "Stackedmax": 10370.96,
+   "Stackedmin": 0,
+   "Profit": 2499.98,
+   "ProfitMargin": 0.24
+ },
+ {
+   "Year": 2015,
+   "Month": "August",
+   "Category": "Technology",
+   "Sales": 15524.64,
+   "Stackedmax": 15524.64,
+   "Stackedmin": 0,
+   "Profit": 3634.53,
+   "ProfitMargin": 0.23
+ },
+ {
+   "Year": 2015,
+   "Month": "September",
+   "Category": "Technology",
+   "Sales": 19017.11,
+   "Stackedmax": 19017.11,
+   "Stackedmin": 0,
+   "Profit": 4821.16,
+   "ProfitMargin": 0.25
+ },
+ {
+   "Year": 2015,
+   "Month": "October",
+   "Category": "Technology",
+   "Sales": 10704.87,
+   "Stackedmax": 10704.87,
+   "Stackedmin": 0,
+   "Profit": 2331.96,
+   "ProfitMargin": 0.22
+ },
+ {
+   "Year": 2015,
+   "Month": "November",
+   "Category": "Technology",
+   "Sales": 23873.61,
+   "Stackedmax": 23873.61,
+   "Stackedmin": 0,
+   "Profit": 6682.73,
+   "ProfitMargin": 0.28
+ },
+ {
+   "Year": 2015,
+   "Month": "December",
+   "Category": "Technology",
+   "Sales": 35632.01,
+   "Stackedmax": 35632.01,
+   "Stackedmin": 0,
+   "Profit": 4956.25,
+   "ProfitMargin": 0.14
+ },
+ {
+   "Year": 2016,
+   "Month": "January",
+   "Category": "Technology",
+   "Sales": 5620.07,
+   "Stackedmax": 5620.07,
+   "Stackedmin": 0,
+   "Profit": 916.39,
+   "ProfitMargin": 0.16
+ },
+ {
+   "Year": 2016,
+   "Month": "February",
+   "Category": "Technology",
+   "Sales": 12258.92,
+   "Stackedmax": 12258.92,
+   "Stackedmin": 0,
+   "Profit": 3297.56,
+   "ProfitMargin": 0.27
+ },
+ {
+   "Year": 2016,
+   "Month": "March",
+   "Category": "Technology",
+   "Sales": 21567.85,
+   "Stackedmax": 21567.85,
+   "Stackedmin": 0,
+   "Profit": 3105.85,
+   "ProfitMargin": 0.14
+ },
+ {
+   "Year": 2016,
+   "Month": "April",
+   "Category": "Technology",
+   "Sales": 14890.51,
+   "Stackedmax": 14890.51,
+   "Stackedmin": 0,
+   "Profit": 3713.46,
+   "ProfitMargin": 0.25
+ },
+ {
+   "Year": 2016,
+   "Month": "May",
+   "Category": "Technology",
+   "Sales": 28832.72,
+   "Stackedmax": 28832.72,
+   "Stackedmin": 0,
+   "Profit": 4440.19,
+   "ProfitMargin": 0.15
+ },
+ {
+   "Year": 2016,
+   "Month": "June",
+   "Category": "Technology",
+   "Sales": 16372.15,
+   "Stackedmax": 16372.15,
+   "Stackedmin": 0,
+   "Profit": 2389.13,
+   "ProfitMargin": 0.15
+ },
+ {
+   "Year": 2016,
+   "Month": "July",
+   "Category": "Technology",
+   "Sales": 13269,
+   "Stackedmax": 13269,
+   "Stackedmin": 0,
+   "Profit": 2270.04,
+   "ProfitMargin": 0.17
+ },
+ {
+   "Year": 2016,
+   "Month": "August",
+   "Category": "Technology",
+   "Sales": 9672.4,
+   "Stackedmax": 9672.4,
+   "Stackedmin": 0,
+   "Profit": 927.04,
+   "ProfitMargin": 0.1
+ },
+ {
+   "Year": 2016,
+   "Month": "September",
+   "Category": "Technology",
+   "Sales": 22883.4,
+   "Stackedmax": 22883.4,
+   "Stackedmin": 0,
+   "Profit": 4912.02,
+   "ProfitMargin": 0.21
+ },
+ {
+   "Year": 2016,
+   "Month": "October",
+   "Category": "Technology",
+   "Sales": 31533.38,
+   "Stackedmax": 31533.38,
+   "Stackedmin": 0,
+   "Profit": 11707.79,
+   "ProfitMargin": 0.37
+ },
+ {
+   "Year": 2016,
+   "Month": "November",
+   "Category": "Technology",
+   "Sales": 27141.08,
+   "Stackedmax": 27141.08,
+   "Stackedmin": 0,
+   "Profit": -1495.34,
+   "ProfitMargin": -0.06
+ },
+ {
+   "Year": 2016,
+   "Month": "December",
+   "Category": "Technology",
+   "Sales": 22322.76,
+   "Stackedmax": 22322.76,
+   "Stackedmin": 0,
+   "Profit": 3589.97,
+   "ProfitMargin": 0.16
+ },
+ {
+   "Year": 2017,
+   "Month": "January",
+   "Category": "Technology",
+   "Sales": 16733.04,
+   "Stackedmax": 16733.04,
+   "Stackedmin": 0,
+   "Profit": 3919.47,
+   "ProfitMargin": 0.23
+ },
+ {
+   "Year": 2017,
+   "Month": "February",
+   "Category": "Technology",
+   "Sales": 6027.03,
+   "Stackedmax": 6027.03,
+   "Stackedmin": 0,
+   "Profit": 859.12,
+   "ProfitMargin": 0.14
+ },
+ {
+   "Year": 2017,
+   "Month": "March",
+   "Category": "Technology",
+   "Sales": 33428.62,
+   "Stackedmax": 33428.62,
+   "Stackedmin": 0,
+   "Profit": 11035.09,
+   "ProfitMargin": 0.33
+ },
+ {
+   "Year": 2017,
+   "Month": "April",
+   "Category": "Technology",
+   "Sales": 12383.4,
+   "Stackedmax": 12383.4,
+   "Stackedmin": 0,
+   "Profit": -2639.77,
+   "ProfitMargin": -0.21
+ },
+ {
+   "Year": 2017,
+   "Month": "May",
+   "Category": "Technology",
+   "Sales": 13566.58,
+   "Stackedmax": 13566.58,
+   "Stackedmin": 0,
+   "Profit": 3261.77,
+   "ProfitMargin": 0.24
+ },
+ {
+   "Year": 2017,
+   "Month": "June",
+   "Category": "Technology",
+   "Sales": 17061.12,
+   "Stackedmax": 17061.12,
+   "Stackedmin": 0,
+   "Profit": 3939.4,
+   "ProfitMargin": 0.23
+ },
+ {
+   "Year": 2017,
+   "Month": "July",
+   "Category": "Technology",
+   "Sales": 23209.92,
+   "Stackedmax": 23209.92,
+   "Stackedmin": 0,
+   "Profit": 4064.72,
+   "ProfitMargin": 0.18
+ },
+ {
+   "Year": 2017,
+   "Month": "August",
+   "Category": "Technology",
+   "Sales": 17619.16,
+   "Stackedmax": 17619.16,
+   "Stackedmin": 0,
+   "Profit": 2650.91,
+   "ProfitMargin": 0.15
+ },
+ {
+   "Year": 2017,
+   "Month": "September",
+   "Category": "Technology",
+   "Sales": 26942.6,
+   "Stackedmax": 26942.6,
+   "Stackedmin": 0,
+   "Profit": 4595.17,
+   "ProfitMargin": 0.17
+ },
+ {
+   "Year": 2017,
+   "Month": "October",
+   "Category": "Technology",
+   "Sales": 32855.64,
+   "Stackedmax": 32855.64,
+   "Stackedmin": 0,
+   "Profit": 7761.44,
+   "ProfitMargin": 0.24
+ },
+ {
+   "Year": 2017,
+   "Month": "November",
+   "Category": "Technology",
+   "Sales": 49918.77,
+   "Stackedmax": 49918.77,
+   "Stackedmin": 0,
+   "Profit": 5675.02,
+   "ProfitMargin": 0.11
+ },
+ {
+   "Year": 2017,
+   "Month": "December",
+   "Category": "Technology",
+   "Sales": 21984.94,
+   "Stackedmax": 21984.94,
+   "Stackedmin": 0,
+   "Profit": 5562.3,
+   "ProfitMargin": 0.25
+ }
+]

@@ -378,7 +378,7 @@ function AsterPlot(json){
         .attr('text-anchor', 'middle');
     
    
-        let barchart = svg.append('g')
+        let barchart = svg.append('g')// appends a new 'g' element to the svg
                           .selectAll('rect')
                           .data(filtereddata)
                           .enter()
@@ -394,7 +394,7 @@ function AsterPlot(json){
                             if(category != 'All'){
                               return catColorScheme(category)
                             }else{
-                              return 'green'
+                              return 'green' // set the fill color to green
                             }
                           })
                           .attr('stroke', 'black')

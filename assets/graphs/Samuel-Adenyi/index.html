@@ -75,19 +75,22 @@
             <select id="levelOptions"></select>
             <label style="color: black">  Level</label>
             <br/>
+
+            <!-- The container for the triangle-shaped scatter plot -->
             <div id="trianglePlot"></div>
         </div>
         <script>
-
+            // Loads the scatter plot data from a JSON file and calls the triangleplot function to plot the data
             d3.json("scatter plot data.json", d3.autoType).then(triangleplot);  
 
+            // Function to plot the data in the triangle plot
             function triangleplot (data) {
 
                 console.log('Data =', data)
 
                 console.log(window.innerWidth)
 
-                //Chart Definitions
+                // Defines the variables for the x, y, and z dimensions of the plot
                 const X = 'Sales'               
                 const Y = 'Profit'               
                 const Z = 'Quantity'
@@ -104,10 +107,10 @@
                 // Data elements
                 let labels, dots, graph;
 
-                // Default level
+                // Sets the default level of detail to display the data
                 level = 'Category';
 
-                // Extracting data from json
+                // Extracts the categories and subcategories from the data
                 const category = Array.from(new Set(d3.map(data, function(d){return d['Category']})));
 
                 const subcategories = d3.map(data, function(d){return d['Sub-Category']});
@@ -115,7 +118,7 @@
                 // Data for Sub-Category level
                 const subCatData = data;
 
-                // Summing data for category level
+                /// Creates the data for the category level by summing up the data for each category
                 const catData = []
                 
                 category.forEach(function(d){
@@ -169,7 +172,6 @@
                             .append("div")
                             .attr("class", "tooltip")
                             .style("opacity", 0);
-
 
                 // Creating Levels Options Dropdown
                 let levelList = ['Category', 'Sub-Category']
@@ -565,7 +567,9 @@
                             thisPath.classed('rotate', true)
 
                             animateTriangle('.rotate')
+                            // show the tooltip
                             tooltip.transition().duration(300).style("opacity", 0.8); //showing tooltip
+                            // determine whether the data value at the Y-axis is a profit or loss
                             let profit, label, textcolor;
                             if (d[Y]>0){
                                 profit = 'Profit'
@@ -587,11 +591,12 @@
                                 </span></span>`) 
                     
                                 // instaed of enclosing text in span use div
-
+                                // set tooltip style and position
                             .style("visibility", "visible") //adding values on tooltip
                             .style("left", event.pageX + "px") //for getting the horizontal or x position of cursor and giving it to tooltip
                             .style("top", event.pageY + "px"); //for getting y value of cursor and giving it to tooltip
-
+                            
+                            // create a function to repeatedly rotate the path if it is still in hover state
                             function repeatRotate(){
                                 setTimeout(()=> {
                                     animateTriangle('.rotate');
@@ -622,7 +627,7 @@
                                 .style("visibility", "none")
                                 .transition()
                                 .duration(301)
-                                .style("opacity", 0);                
+                                .style("opacity", 0);
                         }
                     }) 
                 }
@@ -635,14 +640,18 @@
             //-------------------------------
             //             LEGEND
             //-------------------------------
-            
+            // Create a group element for the legend and move it to the top right of the chart area
             const legendGroup = svg
                                 .append('g')
                                     .attr('id', 'legend-group')
                                     .attr("transform", `translate(${w - rmargin},${tmargin + 20})`);
-
+            
+            // Define a triangle symbol using d3.symbol()
             const triangle = d3.symbol().type(d3.symbolTriangle)
-
+            
+            // Create a path element for each category in the data array
+            // The path is a triangle symbol filled with the color associated with the category
+            // The path element is given a class name 'legend' and a second class name that replaces spaces in the category name with underscores
             const legend  = legendGroup
                                 .selectAll('path')
                                 .data(category)
@@ -653,7 +662,10 @@
                                     .style("fill", function(d){return catColorScheme(d)})
                                     .attr('class', function(d){ return `legend ${d.replace(' ', '_')}` });
 
-
+            // Create a text element for each category in the data array
+            // The text is the name of the category and is positioned to the right of the corresponding triangle symbol
+            // The text element is given a class name 'legend' and a second class name that replaces spaces in the category name with underscores
+            // The text element is also given the class name 'button'
             const legendText  = legendGroup
                                 .selectAll('text')
                                 .data(category)
