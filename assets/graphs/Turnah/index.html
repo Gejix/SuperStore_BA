@@ -776,6 +776,12 @@
                     d3.selectAll(`.${cat.replace(' ', '_')}`).style('opacity', 1)
                     // 
                     oneCategory(cat, year, entry = true)
+                    // Update AllYearProfitMargin for Category
+                    let catDataAllYear = dataset.filter(function(d){return d.Category == cat})
+                    overallProfitmarginValue = d3.sum(catDataAllYear, function(d){return d.Profit})/d3.sum(catDataAllYear, function(d){return d.Sales}) * 100
+
+                    // Change Overall Profit margin Value
+                    textChange(overallProfitMarginCardValue, `${overallProfitmarginValue.toFixed(2)}%`)
                 }
             );
             }
