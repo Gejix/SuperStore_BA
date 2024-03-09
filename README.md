@@ -3,6 +3,7 @@
 Business Analytics Interactive Visualization
 
 A Web-base Business Analytics Project Summary
+
 Website link: https://gejix.github.io/SuperStore_BA/
 
 Super Stores approached our team, Blue Ocean, to analyze their data and provide insights for business improvement. Our team consists of five members: a Scrum Master, a Product Owner, a Marketing Manager, a Financial Expert, and a Customer Service Manager.
