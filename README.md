@@ -79,7 +79,7 @@ This Project creted out by:
 
 <ul>
   <li><a target="_blank" href="https://github.com/Gejix">Gerald Juwah </a> <i> as the ScruM Master</i></li>
-  <li><a target="_blank" href="https://github.com/pturnah">Peace Turn </a> <i> as the Finacial analysist</i></li>
+  <li><a target="_blank" href="https://github.com/pturnah">Peace Turnah </a> <i> as the Finacial analysist</i></li>
   <li><a target="_blank" href="https://github.com/Arinzeuche">Arinze Mmaduanu </a> <i>as the Marketing Manager</i></li>
   <li><a target="_blank" href="https://github.com/Yemisam">OpeyeSamuel-Adeniyi </a> <i>as the Product Owner</i></li>
   <li><a target="_blank" href="https://github.com/Hemananth69">Hemanth Muthya </a><i>as the customer service manager</i></li>
